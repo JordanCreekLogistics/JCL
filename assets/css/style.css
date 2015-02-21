@@ -16,6 +16,18 @@
    GENERAL STYLESHEET BY BYINARY THEME    
    ============================================================*/
 
+.relative-pos{
+  position: center;
+}
+ 
+#quote-btn{
+  position: absolute;
+  z-index: 100;
+  margin-top: 100px;
+  margin-left: 35%;
+  width: 30%;
+  border: 1px solid color-black;
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -278,7 +290,18 @@ color: #FF0000;
 
 
 #footer {
+    text-align: right;
     background-color: #000;
     color: #fff;
     padding: 30px;
+}
+
+.finaljcl {
+    float: left;
+    background-color: #000;
+    color: #fff;
+}
+
+.center {
+    text-align: center;
 }
