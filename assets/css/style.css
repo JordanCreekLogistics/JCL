@@ -16,17 +16,30 @@
    GENERAL STYLESHEET BY BYINARY THEME    
    ============================================================*/
 
-.relative-pos{
+.relative-pos {
   position: center;
 }
  
-#quote-btn{
+#quote-btn {
   position: absolute;
   z-index: 100;
-  margin-top: 100px;
+  margin-top: 200px;
   margin-left: 35%;
   width: 30%;
-  border: 1px solid color-black;
+  height: 75px;
+  font-size: 28px;
+  font-weight: bold;
+  border: 1px solid gray;
+  line-height: 60px;
+}
+
+.quote {
+  font-style: italic;
+}
+
+#foot-hr {
+  margin-top: 3px;
+  margin-bottom: 0px;
 }
 
 body {
@@ -293,13 +306,17 @@ color: #FF0000;
     text-align: right;
     background-color: #000;
     color: #fff;
-    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .finaljcl {
     float: left;
     background-color: #000;
     color: #fff;
+    margin-top: 20px;
 }
 
 .center {
