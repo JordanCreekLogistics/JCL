@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     padding-top: 30px;
-    color: #fff;
+    color: #000;
     font-weight: 800;
 }
 
@@ -132,8 +132,9 @@ p {
 }
 
 .section {
-    background-color: #4E63D1;
+    background-image: url("../img/slider/images/1.jpg");
     color: #fff;
+    height: 300px;
 }
 .circle-body {
  width: 150px;
