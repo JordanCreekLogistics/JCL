@@ -270,25 +270,26 @@ border: 1px solid #E9E9E9;
    COMPONENT.CSS  CHANGES   
    ============================================================*/
 .slideshow nav span.nav-prev, .slideshow nav span.nav-next {
-left: 33%!important;
+  left: 33%!important;
 
 }
 .slideshow {
-    z-index: 1500!important; 
+  z-index: 1500!important; 
 }
 .slideshow nav span.nav-close {
-color: #FF0000;
+  color: #FF0000;
 }
-    .slideshow nav span {
-        color: #FF0000;
-    }
+.slideshow nav span {
+  color: #FF0000;
+}
 /* ===========================================================
    SLIDER ADJUSTMENTS (slider.css)  
    ============================================================*/
 
-     .slidesjs-container {
-            height:550px!important;
-        }
+.slidesjs-container {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  height:550px!important;
+}
 #slides {
     border:1px dashed #e1e1e1;
     padding:0px 0px 15px 0px;
@@ -297,18 +298,18 @@ color: #FF0000;
    BOOTSTRAP ELEMENTS CHANGES   
    ============================================================*/
 .navbar {
-    font-weight: 500;
-    font-size: 14px;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .navbar-inverse {
-    background: #000;
-    border-color: #000;
+  background: #000;
+  border-color: #000;
 }
 
-    .navbar-inverse .navbar-nav > .active > a {
-        background: #ffffff;
-    }
+.navbar-inverse .navbar-nav > .active > a {
+  background: #ffffff;
+}
 
     .navbar-inverse .navbar-brand {
         color: #fff;
@@ -355,4 +356,7 @@ color: #FF0000;
 
 .whywork {
   float: right
+}
+.container2 {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
 }
